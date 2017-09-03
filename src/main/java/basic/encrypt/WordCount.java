@@ -14,12 +14,7 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 /**
- * DES Coder<br/>
- * secret key length:   56 bit, default:    56 bit<br/>
- * mode:    ECB/CBC/PCBC/CTR/CTS/CFB/CFB8 to CFB128/OFB/OBF8 to OFB128<br/>
- * padding: Nopadding/PKCS5Padding/ISO10126Padding/
- * @author Aub
- *
+ *./spark-submit --class basic.encrypt.WordCount /Users/rogersong/latiPay/spark-java-wordcount/target/roger-test-forLatipay-1.0-SNAPSHOT.jar /Users/rogersong/latiPay/spark/spark-2.2.0-bin-hadoop2.7/README.md /Users/rogersong/latiPay/spark/spark-2.2.0-bin-hadoop2.7/output2
  */
 public final class WordCount {
     private static final Pattern SPACE = Pattern.compile(" ");
